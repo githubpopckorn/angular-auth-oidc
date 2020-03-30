@@ -1,0 +1,37 @@
+{
+  "name": "angular-auth-oidc",
+  "version": "1.0.0",
+  "keywords": [
+    "angular",
+    "oidc",
+    "oauth2",
+    "openid",
+    "security",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "rxjs": ">= 6.0.0",
+    "@angular/core": ">= 6.0.0",
+    "@angular/common": ">= 6.0.0",
+    "@angular/router": ">= 6.0.0"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0",
+    "jsrsasign-reduced": "8.0.12",
+    "common-tags": "1.8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santiago López",
+  "license": "MIT",
+  "description": "An OpenID Connect Code Flow with PKCE,Implicit Flow client for Angular for WSO2 IS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damienbod/angular-auth-oidc-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damienbod/angular-auth-oidc-client/issues"
+  }
+}
